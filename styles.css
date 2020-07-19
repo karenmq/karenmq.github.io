@@ -1,0 +1,103 @@
+/*GLOBAL STYLES*/
+body {
+    text-align: center;
+    font-family: 'Enriqueta', serif;
+}
+
+h1 {
+    padding: 100px;
+    background-color: #FCBA04;
+    font-family: 'Enriqueta', serif;
+    font-weight: 700;
+    /*font-size:4vw;*/
+}
+
+#books {
+    margin-bottom: 20px;
+}
+
+.quote {
+    color: black;
+    padding: 20px;
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+p {
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.intro {
+    padding: 30px;
+}
+
+.buttondiv {
+    border-radius: 5px;
+}
+
+.button {
+    background-color: #e9ecf2;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.button:hover {
+    background-color: #b9bfc9;
+    border: 2px solid grey;
+}
+
+.authors {
+    display: inline-block;
+}
+
+.authors a {
+    padding: 30px;
+    color: black;
+}
+
+.cell {
+  background-color: #e9ecf2;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.cell:hover {
+    background-color: #b9bfc9;
+    text-decoration: none;
+
+}
+
+/*Author Pages*/
+
+/*Select box*/
+.menu {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer a {
+    color: #b9bfc9;
+    /*text-decoration: underline;*/
+}
+
+.footer a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 800px) {
+  .left, .main, .right {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  .quote {
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+}
